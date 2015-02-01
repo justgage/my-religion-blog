@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Gage's Book of Mormon Journal
-subtitle: 
-description:
+title: Gage's Scripture Journal
+subtitle: Thoughts from my scripture study as a Mormon.
+description: A site where I track thoughts pertaining to the scriptures any my religion
 author: Gage Peterson
-email:
-language:
+email: justgage@gmail.com
+language: english
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: http://justgage.github.io/my-religion-blog
+root: /my-religion-blog/
 permalink: :year/:month/:day/:title/
 tag_dir: tags
 archive_dir: archives
@@ -40,7 +40,7 @@ highlight:
   tab_replace:
 
 # Category & Tag
-default_category: uncategorized
+default_category: scripture
 category_map:
 tag_map:
 
@@ -85,4 +85,5 @@ exclude_generator:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+   type: github
+   repo: https://github.com/justgage/my-religion-blog.git
